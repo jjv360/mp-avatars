@@ -1,0 +1,4 @@
+# Enable CORS so that the resources are available even if the user travels to another domain (only works on certain HTTP servers though)
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET,PUT,POST,DELETE"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization"

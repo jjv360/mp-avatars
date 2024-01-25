@@ -1,6 +1,6 @@
 # MetaPress Plugin
 
-This is a plugin for [MetaPress](https://get.metapress.dev).
+This is a plugin for [MetaPress](https://get.metapress.dev). Provides some extra avatars.
 
 ## Building
 
@@ -16,3 +16,7 @@ This is a plugin for [MetaPress](https://get.metapress.dev).
 
 - Download the ZIP file from the release page, or build it yourself.
 - In WordPress, go to Plugins > Add New > Upload Plugin and select the ZIP file.
+
+## Avatars
+
+- [Iron Man](https://sketchfab.com/3d-models/iron-man-1a21e1b8f2844956a30d28838d5f816a#download) - _need to fix glitch when transitioning between walking and running_

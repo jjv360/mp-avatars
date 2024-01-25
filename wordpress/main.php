@@ -33,10 +33,16 @@ function metapress_REPLACE_WP_NAME_scripts($config) {
     echo "<script src='$codeLocation'></script>";
 }
 
-
 // Inject any extra config options
 add_filter('metapress_config', 'metapress_REPLACE_WP_NAME_config');
 function metapress_REPLACE_WP_NAME_config($config) {
-    // $config['test1'] = 'test1';
+    
+    // Add plugin-specific config
+    $config['REPLACE_METAPRESS_ID'] = [
+        'assetsURL' => plugin_dir_url(__FILE__) . 'assets/',
+    ];
+
+    // Done
     return $config;
+
 }
